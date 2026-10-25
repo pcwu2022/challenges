@@ -1,0 +1,215 @@
+{
+  "id": "taiwan-rail-rush",
+  "title": "Taiwan: Rail Rush",
+  "description": "Reveal a challenge to see its name and rules. Hints show Challenges, Steal, or Call Your Shot.",
+  "sample_note": "Challenges transcribed from the supplied Taiwan: Rail Rush reference (Jet Lag: The Wiki community content, CC BY-SA). Fixed chip rewards appear as points in the shared interface. Steals, percentage multipliers, variable Call Your Shot payouts, and opposing-team rewards must be tracked manually; these challenges award zero automatic points. Full reward rules are included in the descriptions. Start manual timers at the trigger described in each challenge. Track separate stages, retry waits, and per-turn limits separately. Supporting materials omitted from the reference include the bird sign location, correct Tofu Rocks path, trivia questions, Let's Make a Deal website, Amy's McDonald's selection, the Find this thing image, painting photographs, street-art character list, and verified Hakka Roundhouse diameter.",
+  "challenges": [
+    {
+      "id": "go-birdwatching-in-da-an-park",
+      "public_title": "Challenges",
+      "title": "Go Birdwatching In Da'an Park",
+      "reward": 30,
+      "description": "Da'an Park is an iconic birdwatching location in the heart of Taipei. Go to this sign, which lists 33 bird types that can be found in the park. One team member must attempt to memorize these birds. Once ready, the other team member will go photograph a bird, and then present it to the memorizer. The memorizer, without looking at the sign, gets one guess to successfully identify the bird. If they fail, they may reattempt once with a new bird.\n\nReward: 30 chips"
+    },
+    {
+      "id": "the-floor-is-mostly-lava",
+      "public_title": "Challenges",
+      "title": "The Floor is (Mostly) Lava",
+      "reward": 40,
+      "description": "Choose one team member to cross the Tofu Rocks.\n\nThere is only one correct path to the other side, which they will have two minutes to memorize before they cross. Once they begin their attempt, if they step on the wrong rock-or deviate from the path in any way-they are incinerated and the challenge is failed.\n\nReward: 40 chips; if challenge fails, the other team can earn 60 chips if successful"
+    },
+    {
+      "id": "catvenger-hunt",
+      "public_title": "Challenges",
+      "title": "Catvenger Hunt",
+      "reward": 25,
+      "description": "Once a rich coal mining town, Houtong is now best known for its massive population of stray cats.\n\nYou have one hour to find and photograph all of the following cats:\n\nA cat that is asleep\n\nA cat that is eating\n\nA cat that is touching another cat\n\nA cat that is more than 15 feet from any other cat\n\nA cat that is above you\n\nNo cat may be used in multiple pictures.\n\nReward: 25 chips",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "be-in-the-hot-seat",
+      "public_title": "Call Your Shot",
+      "title": "Be in the Hot Seat",
+      "reward": 0,
+      "description": "You are now at one of Jiaoxi's many famous hot springs, but you aren't here to relax. You are in the hot seat.\n\nWhile in a hot spring, one team member must correctly answer as many trivia questions as they can in 60 seconds. Questions may be skipped, but can only be answered once. You can earn 8 chips (or 12 chips if challenge is failed and other team attempts it) per correctly answered question, but you must call your shot beforehand-if you do not reach the number of correct answers you predicted, you earn nothing and the challenge is failed. The question-asker can read the questions before you call your shot, but cannot discuss any specifics with their teammate.",
+      "time_limit": {
+        "seconds": 60,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "let-s-make-a-deal",
+      "public_title": "Challenges",
+      "title": "Let's Make a Deal",
+      "reward": 30,
+      "description": "You may have noticed three tall structures in this park: the Big Buddha and the two pagodas.\n\nYou will complete this challenge by selecting the right one, and going to it. Which one is right? Head to this website to find out.\n\nReward: 30 chips"
+    },
+    {
+      "id": "taste-test-taiwanese-mcdonald-s",
+      "public_title": "Challenges",
+      "title": "Taste Test Taiwanese McDonald's",
+      "reward": 30,
+      "description": "Taiwanese McDonald's has many exclusive items not available in America. Amy has secretly chosen one of them for you to try.\n\nOne team member must taste-test this item blindfolded-only taking one bite-before correctly guessing what it is. They may consult the menu afterwards to make their guess.\n\nIf they guess wrong, this challenge is failed.\n\nReward: 30 chips"
+    },
+    {
+      "id": "be-alone-in-the-xinying-district",
+      "public_title": "Challenges",
+      "title": "Be Alone in the Xinying District",
+      "reward": 50,
+      "description": "Blurring strangers' faces is expensive. It's time to be alone. You must film one team memberfor 15 minutes straight with no other human beings or vehicles entering the frame.\n\nThis team member must be at least 1/8 of a mile away from the camera, and the camera cannot be zoomed in at all. You get one attempt-if anyone else enters the frame after you start rolling, this challenge is failed.\n\nReward: 50 chips",
+      "time_limit": {
+        "seconds": 900,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "play-boba-blowdarts",
+      "public_title": "Call Your Shot",
+      "title": "Play Boba Blowdarts",
+      "reward": 0,
+      "description": "Welcome to Chun Shui Tang, the teashop where bubble tea was invented. Order a small bubble tea and save the tapioca balls. Then, standing ten feet apart, one team member must blow the balls through a straw at the other team member, who must attempt to catch them in the cup.\n\nYou can earn three chips per boba caught, but you must call your shot before you play. If you run out of boba before reaching your predicted number, then you earn nothing and this challenge is failed."
+    },
+    {
+      "id": "see-a-predictable-number-of-monkeys",
+      "public_title": "Call Your Shot",
+      "title": "See a Predictable Number of Monkeys",
+      "reward": 0,
+      "description": "You are now at the base of Shoushan, otherwise known as Monkey Mountain. You have 40 minutes to ascend and explore the mountain, and you can earn two chips per monkey spotted.... but you must call your shot before you begin your ascent. Research is permitted.\n\nIf you fail to spot as many monkeys as predicted, you earn nothing and this challenge is failed.",
+      "time_limit": {
+        "seconds": 2400,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "catch-an-animal-eating",
+      "public_title": "Challenges",
+      "title": "Catch an animal eating.",
+      "reward": 55,
+      "description": "Welcome to Hsinchu Zoo.\n\nWithin 20 minutes of entering the zoo, get footage of an animal eating.\n\nYou may not feed the animal yourself, and may not consult any online feeding schedules. If you do not find any eating animal within 20 minutes, this challenge is failed.\n\nReward: 55 chips",
+      "time_limit": {
+        "seconds": 1200,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "demonstrate-synesthesia",
+      "public_title": "Challenges",
+      "title": "Demonstrate Synesthesia.",
+      "reward": 50,
+      "description": "For the purposes of this game, each step on the rainbow steps will represent a different color. The bottom blue step will represent light blue, the middle will represent medium blue, the top will represent dark blue, and so on.\n\nOne team member will be given a number of color assignments. For each, they have 30 seconds to think of one word to convey the right color to their partner. Their partner must go to the right step to put in their guess. They must successful get five out of seven or the challenge is failed.\n\nReward: 50 chips"
+    },
+    {
+      "id": "become-a-spin-top-champion",
+      "public_title": "Challenges",
+      "title": "Become a Spin-Top Champion.",
+      "reward": 0,
+      "description": "Taiwan has a long history of competitive top-spinning. You must construct your own spin-top using any materials you can find, and get the top to spin on its own for at least 30 seconds. You cannot use anything thar would be considered a spin-top.\n\nYou may practice spinning your top for up to five seconds, but you only get one official attempt. If the top doesn't spin for at least 30 seconds, this challenge is failed.\n\nReward: 45% multiplier of current team's chips"
+    },
+    {
+      "id": "complete-a-jellyfish-census",
+      "public_title": "Steal",
+      "title": "Complete a Jellyfish Census",
+      "reward": 0,
+      "description": "Go to the Jellyfish room at XPark Aquarium. One at a time, each team member will enter the Jellyfish room and have 15 minutes to count the total number of jellies in the room. No collusion or discussion about counting methods is permitted.\n\nOnce both team members have their estimates, compare your answers. If the estimates are not within 25% of one another, this challenge is failed.\n\nReward: Steal 45% of the other team's chips. If challenge fails, steal is worth 50%."
+    },
+    {
+      "id": "taste-the-rainbow-at-dawu-rainbow-village",
+      "public_title": "Challenges",
+      "title": "Taste the Rainbow at Dawu Rainbow Village",
+      "reward": 70,
+      "description": "Years ago, Dawu revived their once-unknown village by painting it al the colors of the rainbow. Rather than just see it, though, you're going to taste it. One team member must acquire a food or drink to represent one of each of the rainbow's colors: red, orange, yellow, green, blue, violet.\n\nThe other team member will then blind-taste all six of the foods in a randomly-generated order and guess what color each one represents. If any of their guesses are wrong, this challenge is failed.\n\nReward: 70 chips"
+    },
+    {
+      "id": "find-this-thing",
+      "public_title": "Steal",
+      "title": "Find this thing!!",
+      "reward": 0,
+      "description": "Find this thing. You may not use your phone to navigate. If you don't find it within an hour, this challenge is failed.\n\nReward: Steal 50% of the other team's chips.",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "keep-your-balance-across-a-continental-plate",
+      "public_title": "Call Your Shot",
+      "title": "Keep Your Balance Across a Continental Plate",
+      "reward": 0,
+      "description": "You are at the junction of Eurasian and Philippine Sea Plates marker. Collisions between these two plates are a common cause of earthquakes in Taiwan. You must keep your balance as you cross from one to the other. Acquire any number of standard size cans. Stack them on top of each other, holding only the can at the bottom. You must balance this stack of cans for a stretch of 200 feet from one continental plate to the other. You may practice, but you only get one attempt to complete the challenge. If any cans fall during your attempt, you earn nothing and this challenge is failed. Otherwise, you earn twenty chips per can."
+    },
+    {
+      "id": "win-crayon-mastermind",
+      "public_title": "Challenges",
+      "title": "Win Crayon Mastermind",
+      "reward": 50,
+      "description": "Acquire some crayons. You will use these crayons to play a game of mastermind. You get one attempt of seven guesses -- otherwise the challenge is failed.\n\nReward: 50 chips"
+    },
+    {
+      "id": "get-your-qi-flowing-at-a-river",
+      "public_title": "Call Your Shot",
+      "title": "Get Your Qi Flowing at a River",
+      "reward": 0,
+      "description": "In this challenge, you will attempt to meditate serenely by the river as you sense the passage of time.\n\nChoose an amount of time that you'd like to meditate; more time get you more chips.\n\nThen, one member must attempt to meditate for exactly that long, stopping the clock when they think they've reached the end of their timer.\n\nIf they are more than a minute off, this challenge is failed and you earn nothing. Otherwise, you earn five chips per minute meditated. You may not practice."
+    },
+    {
+      "id": "find-the-jet-laggers-at-the-chrysanthemum-festival",
+      "public_title": "Challenges",
+      "title": "Find the Jet Laggers at the Chrysanthemum Festival",
+      "reward": 60,
+      "description": "Welcome to the Shilin Residence Chrysanthemum Festival, Taipei's largest autumnal flower festival.\n\nWithout colluding, one team member must go photograph four art pieces in the festival, each corresponding to one of the four competitors in season 17. These photographs are then brought back to the other team member, who must correctly deduce which photo corresponds to which player. If they get any of the four wrong, the first team member must go back and try again with four new photos. Art pieces cannot be reused after a failed attempt.\n\nReward: 60 chips"
+    },
+    {
+      "id": "pitch-a-painting",
+      "public_title": "Challenges",
+      "title": "Pitch a Painting",
+      "reward": 0,
+      "description": "Taichung's rainbow village is one of Taiwan's largest and longest-running art projects, originally painted to prevent the neighborhood's demolition in the 1950s.\n\nAmy has selected five paintings in the Taichung Rainbow Village and included photographs of them. One player will look at the photo, select one, and describe it to their partner.\n\nThat partner must then go into Taichung Rainbow Village and find the painting. If they are mistaken, they may reattempt one time. Otherwise, the challenge is failed.\n\nReward: 45% multiplier of current team's chips."
+    },
+    {
+      "id": "street-art-scavenger-hunt",
+      "public_title": "Challenges",
+      "title": "Street Art Scavenger Hunt",
+      "reward": 40,
+      "description": "Weiwuying is famous for its massive, colorful street art murals.\n\nAmy has attached a list of characters she wants you to find, hidden somewhere in the neighborhood - you must find at least three of them.\n\nYou have fifteen minutes.\n\nReward: 40 chips",
+      "time_limit": {
+        "seconds": 900,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "estimate-the-diameter-of-the-hakka-roundhouse",
+      "public_title": "Steal",
+      "title": "Estimate the Diameter of the Hakka Roundhouse",
+      "reward": 0,
+      "description": "The Hakka Round House is a perfect circle. Each teammate will take turns estimating the diameter of the Hakka Roundhouse, in feet, using nothing other than their body. You may choose to take either teammate's guess, or the mean average of the two, as your final guess.\n\nIf your final guess is not within 20% of the true diameter, then this challenge is failed.\n\nReward: Steal 40% of the other team's chips."
+    },
+    {
+      "id": "test-your-luck-at-the-dragon-and-tiger-pagodas",
+      "public_title": "Challenges",
+      "title": "Test Your Luck at the Dragon and Tiger Pagodas",
+      "reward": 50,
+      "description": "The dragon and tiger pagodas are one of the most popular tourist attractions in Kaohsiung. It's said that it's bad luck to enter through the tiger's mouth, and good luck to enter through the dragon.\n\nTeam members must split up and make their way to the top of both pagodas, where they will play a game of rock-paper-scissors. The dragon player must win the game without any prior collusion.\n\nIf the dragon player does not win, you must switch pagodas and wait 30 minutes to try again.\n\nReward: 50 chips"
+    },
+    {
+      "id": "observe-the-observers",
+      "public_title": "Steal",
+      "title": "Observe the Observers",
+      "reward": 0,
+      "description": "One team member must go to Taipei 101's observation deck or 89th floor indoor observatory. The other team member may go anywhere outside the building.\n\nWithout any prior collusion, the team member on the observation deck must spot and photograph their teammate on the ground. From the time they begin their search, they have 5 minutes. If they do not photograph their teammate in 5 minutes, this challenge is failed.\n\nThe player on the ground may send one photo of themselves, pointed straight down, but cannot provide any other clues.\n\nReward: Steal 50% of the other team's chips.",
+      "time_limit": {
+        "seconds": 300,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "discover-your-zodiac-s",
+      "public_title": "Call Your Shot",
+      "title": "Discover Your Zodiac(s)",
+      "reward": 0,
+      "description": "Using the pebbles on the beach, one team member will be making depictions of the 12 Chinese zodiac animals for their teammate to guess.\n\nBefore creating any depictions, both team members must decide how many of the 12 they will be attempting, earning 12 chips per zodiac. The team member creating the depictions, however, will only have 50 total rocks-more zodiacs attempted means fewer rocks per depiction. These cannot take the form of letters or numbers.\n\nIf the guessing team member does not guess every depiction correctly, this challenge is failed."
+    }
+  ]
+}

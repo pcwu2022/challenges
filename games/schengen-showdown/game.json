@@ -1,0 +1,213 @@
+{
+  "id": "schengen-showdown",
+  "title": "Schengen Showdown",
+  "description": "An unofficial Jet Lag: The Game challenge collection. Country names are your only clues until you reveal a challenge.",
+  "sample_note": "Challenges transcribed from the supplied reference; 100 points each is a sample scoring system, not the show's scoring. Start manual timers at the trigger described in each challenge and restart them for permitted retries. Multi-stage challenges require tracking each stage separately. The reference does not include the selected Ode to Joy passage, Bulgarian questions, Angry Birds structure diagram, full Užupis rights task list, Monaco reviews, Jason's bouquet specifications, or the Vatican audience form; those materials must be supplied separately.",
+  "source": {
+    "label": "Challenge reference: Jet Lag: The Wiki (CC BY-SA)",
+    "url": "https://jetlag.fandom.com/wiki/Schengen_Showdown/Challenges"
+  },
+  "challenges": [
+    {
+      "id": "austria",
+      "public_title": "Austria",
+      "title": "Play Classical Music on Non-Classical Instruments",
+      "reward": 100,
+      "description": "Beethoven's Ninth Symphony debuted in Austria in 1824. In this challenge, you must play the famous \"Ode to Joy\" theme, but you may not use any musical instruments. The challenge is complete once you play the selected portion of the piece correctly (all correct pitches, on beat, at least 140 BPM). You may rehearse as many times as you'd like. You may only make one official attempt at your performance."
+    },
+    {
+      "id": "belgium",
+      "public_title": "Belgium",
+      "title": "Play Waffle Pong",
+      "reward": 100,
+      "description": "Belgium is known for their waffles. Get a waffle and one container/package of a food that would fit in the waffle's holes (think M&M's, gummy bears, peas, that kind of thing). Place the waffle 2m away from you. You must land a small food in each of the waffle's complete holes to win. You may only throw each unit of small food once. If you run out of small food and have not filled the waffle, you fail. Regardless, you must eat the waffle and anything you caught in it at the end of the challenge."
+    },
+    {
+      "id": "bulgaria",
+      "public_title": "Bulgaria",
+      "title": "Shake Yes, Nod No",
+      "reward": 100,
+      "description": "One teammate will read 15 provided yes-or-no questions. All questions must be answered correctly within 100 seconds with only a shake of the head \"yes\" or a nod \"no\". You get three attempts with new questions.",
+      "time_limit": {
+        "seconds": 100,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "czechia",
+      "public_title": "Czechia",
+      "title": "Kill Time, Then Tell Time",
+      "reward": 100,
+      "description": "Czechia is home to the oldest continuously working clock in the world: the one on the Old Town Hall in Prague. Your task now is to do three of five time-killers of your choice from the list below, then guess what time it is. You may not look at any clocks, and you may not look at the elapsed time on your filming phone. To complete the challenge, your guess must be within five minutes of the elapsed time.\nYour options for time killers are:\n- Get an item completely wet, and watch it completely dry.\n- Unpack and repack every item in your bags ten times each.\n- Name one hundred different real women.\n- Do 200 jumping jacks each.\n- Play ten successful rounds of twenty questions."
+    },
+    {
+      "id": "denmark",
+      "public_title": "Denmark",
+      "title": "Build a LEGO Set Blind",
+      "reward": 100,
+      "description": "Denmark is the birthplace of LEGOs! Build a LEGO set with at least 200 pieces in under 45 minutes, and for some good fun, do it blindfolded!\n- Only one team member has to be blindfolded. This team member must do all the assembly.\n- The other team member may use the instructions to guide the blindfolded builder, but is not allowed to assemble the LEGOs himself. He may hold and move exactly one piece at a time as long as he doesn't put pieces together or take them apart.",
+      "time_limit": {
+        "seconds": 2700,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "finland",
+      "public_title": "Finland",
+      "title": "Win Level 1 of Angry Birds",
+      "reward": 100,
+      "description": "Did you know that Angry Birds is from Finland? In this challenge, you must construct and pass the first level of Angry Birds IRL. This means you must create/acquire birds, a slingshot, a pig, and the 14-block structure the pig is in. You must knock the pig to the ground/floor by firing each of your three birds at it/the structure. If you do not do it after firing all three birds, you fail. You get one attempt, but you may practice."
+    },
+    {
+      "id": "france",
+      "public_title": "France",
+      "title": "Open an Unpopular Museum",
+      "reward": 100,
+      "description": "The Louvre in Paris is the most popular museum in the world. In this challenge, you must create the least popular. Go to any museum, then spend 20 minutes recreating three things that are there. Mark an area of 4'x4', and place your 3 objects and a sign with the name of your museum inside–this is your new museum. In the next ten minutes, if any stranger spends more than 5 seconds in your museum, you fail. At least 5 strangers must visit and leave your museum during the 10 minutes or you must start over."
+    },
+    {
+      "id": "germany",
+      "public_title": "Germany",
+      "title": "Eat a Food in its Namesake Place",
+      "reward": 100,
+      "description": "Tons of foods are named after German places–hamburgers, frankfurters, and pilsners, to name a few. To complete this challenge, you must eat a food in the geographic area from which it derives its name. You have 30 minutes after you enter a geographic area to take a bite of its titular food. You may only attempt once. If you are currently in a geographic area with a food named after it, your 30 minutes start when you realize that.",
+      "time_limit": {
+        "seconds": 1800,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "greece",
+      "public_title": "Greece",
+      "title": "Complete a Sisyphean Task",
+      "reward": 100,
+      "description": "Tie your packs together into one object, which is now your boulder. One team member must carry it over their head 20 feet up a hill with at least 10° grade. It can only touch the top of your head and one hand. Once you climb, generate a number between 1 and 20. If you get the number 17, the challenge is complete; any other number, bring the object back down and do it again."
+    },
+    {
+      "id": "hungary",
+      "public_title": "Hungary",
+      "title": "Do 96 Things",
+      "reward": 100,
+      "description": "The number 96 pops up a lot in Hungary: the Principality of Hungary was established in 896, buildings in Budapest can't be taller than 96 meters, and it takes 96 seconds to sing the national anthem at tempo. Your team must collectively be X burpees, drink Y half-ounces of wine, and complete Z multiplication problems by hand, such that X+Y+Z=96. You must do your 96 things in 15 minutes. Teammates cannot do the same things at the same time.",
+      "time_limit": {
+        "seconds": 900,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "iceland",
+      "public_title": "Iceland",
+      "title": "Play Ice-Hand in Iceland",
+      "reward": 100,
+      "description": "Try a fun new game I'm calling \"ice-hand\". Acquire an ice cube and place it in the palm of your bare hand and squeeze as hard as you can. Both teammates must do this for seven straight minutes for the challenge to be complete. You may attempt with a new ice cube up to five times.",
+      "time_limit": {
+        "seconds": 420,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "italy",
+      "public_title": "Italy",
+      "title": "Limbo in Limbo",
+      "reward": 100,
+      "description": "The Italian writer Dante is best known for Inferno: a book detailing his fictionalized journey through Hell. In Inferno, the first Circle of Hell is known as \"limbo\", which is where you're headed for this challenge. First, you must get underground (i.e. fully below street level, out of view of the sun). Then, you must limbo: Roll two dice. One of the values will be the height in feet that you must limbo under, the other will be how many attempts one of your team members has to limbo under it."
+    },
+    {
+      "id": "liechtenstein",
+      "public_title": "Liechtenstein",
+      "title": "Name the Other Doubly-Landlocked Country",
+      "reward": 100,
+      "description": "Paraphrase: You have five guesses to name the other doubly-landlocked country on Earth."
+    },
+    {
+      "id": "lithuania",
+      "public_title": "Lithuania",
+      "title": "Exercise Your Užupian Rights",
+      "reward": 100,
+      "description": "Lithuania's capital Vilnius is home to the Republic of Užupis, a neighborhood which declared its independence in 1997. It also has its own constitution, which lays out 41 human rights. In this challenge, you must randomly generate three numbers between 1 and 41 and complete the tasks that correspond to those rights in 45 minutes. Paraphrase: If you are in the Republic of Užupis, you may generate six random numbers and pick three.\nRights include:\n- 6. Everyone has the right to love. Make a phone call to any non-business phone number. The person must answer, and you must tell them something you like about them. You may make a call once every ten minutes.\n- 26. Everyone has the right to celebrate or not celebrate their birthday. Write \"Happy Birthday\" legibly on any dessert using food, then eat said dessert in its entirety.\n- 35. No one has the right to make another person guilty. So get your guilt off your chest: each teammate must tell the other three things that they themselves have ever done wrong.\n- Paraphrase: lose 1,000 followers on any social media.\n- Paraphrase: change your phone's language to Lithuanian for three hours.\n- Paraphrase: you may only refer to yourself or your teammate in the third person.",
+      "time_limit": {
+        "seconds": 2700,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "malta",
+      "public_title": "Malta",
+      "title": "Sense Pastizzi",
+      "reward": 100,
+      "description": "Pastizzi are a Maltese pastry usually filled with either ricotta or peas. Line up five pastizzi – some ricotta, some pea. One teammate must identify which are which but may only use one of their senses on each of the pastizzi – i.e. you can taste one, you can touch one, you can look at one, you can listen to one, and you can smell one – and you must get three of them correct."
+    },
+    {
+      "id": "monaco",
+      "public_title": "Monaco",
+      "title": "Identify Monaco's Top Attractions",
+      "reward": 100,
+      "description": "I've provided you with Google reviews from Monaco's top five tourist attractions with the name of the attraction removed. You will guess which reviews go with which sites by reading each review while standing in front of the site you think it's for. You may not do any research online, but you may go to the sites. You must get at least three correct to complete the challenge."
+    },
+    {
+      "id": "netherlands",
+      "public_title": "Netherlands",
+      "title": "Build Jason His Dream Bouquet",
+      "reward": 100,
+      "description": "The Netherlands are known for many things–it's not just bikes! Indeed, the Netherlands are the flower shop of the world, so please assemble the bouquet of Jason from Not Just Bikes' dreams to his precise specifications! Complete and send Jason a picture of your bouquet within 30 minutes, or you fail this challenge. Your time starts the next time you touch a flower; you may not do any research, flower acquisition, or assembly until then.",
+      "time_limit": {
+        "seconds": 1800,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "norway",
+      "public_title": "Norway",
+      "title": "Appreciate Your Surroundings",
+      "reward": 100,
+      "description": "The Norwegian idea of kos means: \"embracing peace and happiness, being in the moment, and fully appreciating the surroundings you find yourself in.\" For this challenge, spend ten minutes silently admiring your surroundings. After that, one of you will write a list of ten things in your surroundings, while the other draws your surroundings. You will have ten minutes for this. All ten of the things on teammate 1's list must be undeniably visible in teammate 2's drawing. You may attempt this three times, but must go to new surroundings (i.e. at least half a mile away from prior attempts)."
+    },
+    {
+      "id": "poland",
+      "public_title": "Poland",
+      "title": "Celebrate Today's Name Day",
+      "reward": 100,
+      "description": "In Poland, there's a holiday for every name. Look up the names celebrated on today's date, and find one of them printed somewhere within 30 minutes of looking up the names.\n- Digital sources do not count.\n- You may not write or compel anyone else to write the name.",
+      "time_limit": {
+        "seconds": 1800,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "slovakia",
+      "public_title": "Slovakia",
+      "title": "Visit One Castle Per Capita",
+      "reward": 100,
+      "description": "Slovakia has the highest number of castles per capita in the world. Your team must enter (or get within 10 meters of) two castles (palaces count) within an hour of reading this card. At each castle, one team member must wear a crown (any pointy hat) and make a royal decree on a subject of your choosing.",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "on_open"
+      }
+    },
+    {
+      "id": "sweden",
+      "public_title": "Sweden",
+      "title": "Find Amy a DJUNGELSKOG",
+      "reward": 100,
+      "description": "This is actually perfect because I desperately need a DJUNGELSKOG. Could you help me out? Go to IKEA, and find a DJUNGELSKOG within 25 minutes of entering the store. You may not look up what a DJUNGELSKOG is, nor may you ask for help from anyone else. You don't have to buy it, just text me a pic of you and the DJUNGELSKOG so I know it's in stock. Thanks!",
+      "time_limit": {
+        "seconds": 1500,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "switzerland",
+      "public_title": "Switzerland",
+      "title": "Déjà Vu!",
+      "reward": 100,
+      "description": "Shot-for-shot and word-for-word (according to the official captions file), recreate any at-least-90-second scene from any previous season of Jet Lag, in the place where it was filmed. The scene must include at least one person, and at least 30 seconds of dialogue. You may rehearse your scene as much as you want, but you must film it in one, word-perfect take."
+    },
+    {
+      "id": "vatican-city",
+      "public_title": "Vatican City",
+      "title": "Create the Creation of Adam, Adam (or Ben or Sam or Tom)",
+      "reward": 100,
+      "description": "The Vatican is home to Michelangelo's most famous works: The Creation of Adam, located on the ceiling of the Sistine Chapel. You must recreate The Creation of Adam as Michelangelo did. Your artwork must be above you during its entire creation. It must then be correctly identified by your audience through a Google Form."
+    }
+  ]
+}

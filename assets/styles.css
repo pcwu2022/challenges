@@ -1,0 +1,38 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #202620; background: #f5f6f4; line-height: 1.5; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 1040px; margin: 0 auto; padding: 32px 20px; }
+header { margin: 24px 0; }
+h1 { font-size: 1.85rem; margin-bottom: 8px; }
+h2 { font-size: 1.25rem; margin: 8px 0 16px; }
+p { margin: 10px 0; }
+a { color: #245b39; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 16px; margin: 24px 0; }
+.card { background: white; border: 1px solid #c7cdc7; border-radius: 6px; padding: 20px; text-align: left; color: inherit; }
+button.card { display: flex; flex-direction: column; gap: 12px; width: 100%; font: inherit; cursor: pointer; min-height: 125px; }
+button.card:hover { border-color: #245b39; }
+.card.complete { background: #e0f0df; border-color: #82a77c; }
+.card.failed { background: #fbe2e2; border-color: #bf7676; }
+.card-title { font-weight: 650; font-size: 1.1rem; }
+.state, .eyebrow { font-size: .85rem; color: #4b574b; }
+.summary { display: flex; flex-wrap: wrap; gap: 12px 28px; border-block: 1px solid #c7cdc7; padding: 14px 0; }
+.summary p { margin: 0; }
+button, .button { font: inherit; border: 1px solid #2e5b38; border-radius: 4px; background: #2e5b38; color: white; padding: 9px 16px; cursor: pointer; }
+.button { display: inline-block; margin-top: 12px; text-decoration: none; }
+button.secondary, #restart { background: white; color: #263e2c; }
+button:disabled { opacity: .6; cursor: default; }
+:focus-visible { outline: 3px solid #a36612; outline-offset: 3px; }
+footer { margin-top: 36px; font-size: .9rem; color: #4b574b; }
+progress { width: 100%; accent-color: #2e5b38; }
+dl { margin: 12px 0; } dt { color: #4b574b; font-size: .85rem; } dd { margin: 0 0 8px; }
+dialog { width: min(600px, calc(100% - 32px)); max-height: calc(100dvh - 40px); overflow: auto; border: 1px solid #879187; border-radius: 6px; padding: 28px; }
+dialog::backdrop { background: rgb(0 0 0 / .68); }
+body:has(dialog[open]) { overflow: hidden; }
+.description { white-space: pre-line; }
+.timer { font: 600 2rem ui-monospace, monospace; margin: 4px 0 12px; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+#expired { padding: 12px; background: #fff0d3; border: 1px solid #c28e36; }
+.muted { color: #4b574b; font-size: .9rem; }
+#notice:empty { display: none; }
+#notice { padding: 12px; background: #fff0d3; }
+[hidden] { display: none !important; }

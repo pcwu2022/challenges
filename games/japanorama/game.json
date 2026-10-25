@@ -1,0 +1,354 @@
+{
+  "id": "japanorama",
+  "title": "Japanorama",
+  "description": "Reveal a challenge to see its rules. Each hint is the challenge name.",
+  "sample_note": "Challenges transcribed from the supplied Japanorama reference (Jet Lag: The Wiki community content, CC BY-SA). Reward values are cards; the shared interface displays them as points. Start manual timers at the trigger described in each challenge. Track retry waits, minimum activity durations, and multi-stage timing separately. Tristan's riddle, Amy's secret garden locations, and Amy's clue and mystery item are not included in the reference and must be supplied separately. Original wording and ambiguities are retained.",
+  "challenges": [
+    {
+      "id": "complete-the-japan-scavenger-hunt",
+      "public_title": "Complete the Japan Scavenger Hunt",
+      "title": "Complete the Japan Scavenger Hunt",
+      "reward": 2,
+      "description": "After disembarking at any station, and without using your phone, find eight of the following: a convenience store, a torii gate, any depiction of Totoro, plastic food, a photo booth, anything high-vis, a koi fish, a boat, a manhole cover, bamboo. You have one hour. If you fail, you may retry at a new station.\n\nIf your partner guesses wrong at any point, this card is automatically vetoed.",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "shoot-a-bullseye-with-a-bow-and-arrow",
+      "public_title": "Shoot a Bullseye with a Bow and Arrow",
+      "title": "Shoot a Bullseye with a Bow and Arrow",
+      "reward": 2,
+      "description": "From a distance of at least 20 feet, shoot an arrow into any point within the three innermost rings of a target. You may not buy or create a bow, arrow, or target to complete this challenge."
+    },
+    {
+      "id": "play-suikawari-at-the-beach",
+      "public_title": "Play Suikawari At The Beach",
+      "title": "Play Suikawari At The Beach",
+      "reward": 2,
+      "description": "Suikawari is a Japanese game, typically played at the beach, wherein a person is blindfolded, spun around, and then must destroy a watermelon with a stick, being guided by instructions from someone else. Go to any beach. Starting 30 feet away from your watermelon, your partner must spin of their own accord, stopping after 20 seconds. They then must hit the watermelon within 40 seconds of ceasing spinning. Your partner may say three words, but may not move or touch you. If you fail, you must wait 10 minutes before trying again."
+    },
+    {
+      "id": "survive-the-batting-cage",
+      "public_title": "Survive the Batting Cage",
+      "title": "Survive the Batting Cage",
+      "reward": 2,
+      "description": "Japan's love affair with baseball extends to its arcades, where batting cages remain highly popular. In this challenge, you have to hit at least three out five pitches at a batting cage. If you fail, you must wait 10 minutes before trying again. You may not practice."
+    },
+    {
+      "id": "show-the-audience-one-monkey",
+      "public_title": "Show The Audience One Monkey",
+      "title": "Show The Audience One Monkey",
+      "reward": 3,
+      "description": "The Japanese macaque, or snow monkey, can be found across most parts of Japan. Find and photograph any monkey not in captivity."
+    },
+    {
+      "id": "find-your-prefectural-bird",
+      "public_title": "Find Your Prefectural Bird",
+      "title": "Find Your Prefectural Bird",
+      "reward": 2,
+      "description": "Each prefecture of Japan has an official prefectural bird. Find and photograph your prefecture's bird, and verify its identity with a birdwatching app."
+    },
+    {
+      "id": "flip-one-of-japan-s-100-remarkable-waters",
+      "public_title": "Flip One Of Japan's 100 Remarkable Waters",
+      "title": "Flip One Of Japan's 100 Remarkable Waters",
+      "reward": 2,
+      "description": "Visit any of the 100 Remarkable Waters of Japan with a water bottle. Fill the bottle up with any amount of the remarkable water. Flip the bottle and have it land upright. If you fail, you must wait 5 minutes before trying again."
+    },
+    {
+      "id": "answer-a-riddle-under-a-big-bridge",
+      "public_title": "Answer a Riddle Under a Big Bridge",
+      "title": "Answer a Riddle Under a Big Bridge",
+      "reward": 2,
+      "description": "Correctly answer Tristan's riddle while standing under a bridge longer than 400 meters. If you fail, this challenge cannot be reattempted by your team."
+    },
+    {
+      "id": "leave-your-prefecture-by-boat",
+      "public_title": "Leave Your Prefecture By Boat",
+      "title": "Leave Your Prefecture By Boat",
+      "reward": 3,
+      "description": "The boat ride must take at least one hour. This must be an actual captained boat; you cannot, for example, hop in a canoe and cross a river."
+    },
+    {
+      "id": "catch-a-fish",
+      "public_title": "Catch a Fish",
+      "title": "Catch a Fish",
+      "reward": 5,
+      "description": "Pull any live, wild fish out of the water for at least one second. This must be done in saltwater to ensure you do not violate local fishing permissions."
+    },
+    {
+      "id": "find-a-clam",
+      "public_title": "Find a Clam",
+      "title": "Find a Clam",
+      "reward": 4,
+      "description": "It's peak clam season in Japan! Clam-digging, or shiohigari, is a springtime tradition in Japan. Go to a beach and dig up a clam!"
+    },
+    {
+      "id": "catvenger-hunt-part-deux",
+      "public_title": "Catvenger Hunt Part Deux",
+      "title": "Catvenger Hunt Part Deux",
+      "reward": 1,
+      "description": "Before leaving the prefecture, find four of these five cats. They must be different cats:\n\nA meowing cat\nA cat that is licking itself\nA cat that is touching you\nA cat that is all one color\nA cat that is being pet by someone who is not you or your partner"
+    },
+    {
+      "id": "taste-rice-at-a-rice-field",
+      "public_title": "Taste Rice at a Rice Field",
+      "title": "Taste Rice at a Rice Field",
+      "reward": 3,
+      "description": "Visit a field of rice terraces. One team member will randomly generate a number of grains and feed them to their teammate, who is blindfolded. They must correctly determine the number of grains in their mouth. If they fail, you must wait 10 minutes before trying again."
+    },
+    {
+      "id": "get-recognized",
+      "public_title": "Get Recognized",
+      "title": "Get Recognized",
+      "reward": 5,
+      "description": "A person you do not know personally must come up to you and make it clear they recognize you from the internet. You may try to situate yourself in noticeable places, and act recognizable, but you may not solicit recognition, either verbally or in writing. You may not post on social media about your location. In order to be eligible to complete this challenge, you must select which member of your team must be recognized. You must successfully gather footage in which the person is recognizing you; you may not ask them to recreate the moment."
+    },
+    {
+      "id": "taste-test-strawberries",
+      "public_title": "Taste Test Strawberries",
+      "title": "Taste Test Strawberries",
+      "reward": 2,
+      "description": "It's strawberry season! At a strawberry farm, pick three strawberries based on appearance and predict how your blindfolded partner will rank them based on taste. If you do not match, you must wait 30 minutes before trying again."
+    },
+    {
+      "id": "spot-your-partner-from-a-ropeway",
+      "public_title": "Spot Your partner from a Ropeway",
+      "title": "Spot Your partner from a Ropeway",
+      "reward": 3,
+      "description": "Japan is renowned for its expansive network of ropeways and gondolas. One player must position themselves somewhere on the ground visible from a ropeway. With no collusion, their partner must then ride the ropeway and spot them."
+    },
+    {
+      "id": "find-the-secret-spot-at-one-of-japan-s-great-gardens",
+      "public_title": "Find the Secret Spot at One of Japan's Great Gardens",
+      "title": "Find the Secret Spot at One of Japan's Great Gardens",
+      "reward": 3,
+      "description": "Kenroku-en, Kōraku-en, and Kairaku-en are considered Japan's \"three great gardens,\" the most beautiful in the country. Just outside one of these gardens, reveal Amy's Secret Location for that garden. You must now find Amy's secret location in the next 10 minutes. You may not use your phone. For every one minute past the timer, you must wait at the garden an additional 5 minutes before leaving.",
+      "time_limit": {
+        "seconds": 600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "build-a-house-of-cards-at-a-gassho-zukuri-house",
+      "public_title": "Build a House of Cards at a Gasshō-zukuri House",
+      "title": "Build a House of Cards at a Gasshō-zukuri House",
+      "reward": 3,
+      "description": "Gasshō-zukuri is a rare Japanese architectural style of farmhouse, featuring steeply slanted thatched roofs. Go to any gassho-zukuri house and construct a two story house of cards. If your house fails, you must wait 30 minutes before trying again."
+    },
+    {
+      "id": "record-an-iconic-sound",
+      "public_title": "Record an Iconic Sound",
+      "title": "Record an Iconic Sound",
+      "reward": 2,
+      "description": "In 1996, the Japanese government complied a list of the \"100 Soundscapes of Japan.\" Record one of these sounds."
+    },
+    {
+      "id": "taste-test-conveyor-belt-sushi",
+      "public_title": "Taste Test Conveyor Belt Sushi",
+      "title": "Taste Test Conveyor Belt Sushi",
+      "reward": 2,
+      "description": "Go to any conveyor belt sushi restaurant and order three pieces of sushi at varying price points. Your partner, blindfolded, must try all of them and rank them on how expensive they believe them to be. If they are incorrect, you must try again at a different sushi place."
+    },
+    {
+      "id": "find-a-sika-deer",
+      "public_title": "Find a Sika Deer",
+      "title": "Find a Sika Deer",
+      "reward": 3,
+      "description": "The Sika Deer, or Japanese Deer, are relatively common across the country. In some contexts, these deer are considered messengers of the gods. Find any deer in the wild. This can include managed areas, just not zoos or deers in obvious captivity."
+    },
+    {
+      "id": "bamboozle-in-bamboo",
+      "public_title": "Bamboozle in Bamboo",
+      "title": "Bamboozle in Bamboo",
+      "reward": 2,
+      "description": "Find a bamboo forest dense enough that one team member can be completely hidden by nothing other than bamboo. Take a photo, and the audience must fail to correctly guess which part of the photo your team member is in."
+    },
+    {
+      "id": "mind-meld-at-a-tokubetsu-meisho",
+      "public_title": "Mind Meld at a Tokubetsu Meishō",
+      "title": "Mind Meld at a Tokubetsu Meishō",
+      "reward": 3,
+      "description": "Jaoan has designated 36 places as tokubetsu meishō, Special Places of Scenic Beauty. Visit one and select a view for both team members to look at. They must each note the five most beautiful things (in one word) that they saw. At least three of the five words listed must match. If you fail, wait 30 minutes before trying again."
+    },
+    {
+      "id": "photograph-a-moving-shinkansen",
+      "public_title": "Photograph a Moving Shinkansen",
+      "title": "Photograph a Moving Shinkansen",
+      "reward": 2,
+      "description": "Pointing your camera perpendicular to the track, take a picture of a moving shinkansen where the nose of the shinkansen is visible. The nose of the shinkansen must be in frame, and the height of the shinkansen must take up at least 1/4 of the frame. You may take one picture per train."
+    },
+    {
+      "id": "smell-an-amazing-smell",
+      "public_title": "Smell an Amazing Smell",
+      "title": "Smell an Amazing Smell",
+      "reward": 2,
+      "description": "At one of the 100 sites of Good Fragrance, each team member must write down three adjectives to describe the smell and match on at least one word. If you fail, wait 30 minutes and try again. You may not repeat words."
+    },
+    {
+      "id": "evaluate-a-unesco-world-heritage-site",
+      "public_title": "Evaluate a UNESCO World Heritage Site",
+      "title": "Evaluate a UNESCO World Heritage Site",
+      "reward": 4,
+      "description": "Japan has many UNESCO World Heritage Sites. Each UNESCO World Heritage Site qualifies under at least one of ten selection criterai. After taking in the site for at least 20 minutes, guess which criteria it qualifies under. If you are wrong, study for another 20 minutes and guess again. If it qualifies under multiple criteria, you must correctly guess all of them. Right answers will be confirmed. Your partner will tell you how many categories it qualifies under before beginning."
+    },
+    {
+      "id": "draw-one-of-japan-s-12-original-castles",
+      "public_title": "Draw one of Japan's 12 Original Castles",
+      "title": "Draw one of Japan's 12 Original Castles",
+      "reward": 3,
+      "description": "Most of Japan's original castles have been destroyed; only 21 Genzon Tenshu, or castles with their original keeps intact, remain, scattered across the country. Visit one of these castles Castles and draw it, posting your drawing online with a poll asking the audience which of the 12 you drew. You may not link the audience to any specific list of the castles. Your castle's name must be the most common answer. If you fail, you must wait 30 minutes and try again."
+    },
+    {
+      "id": "buy-the-same-item-at-a-konbini",
+      "public_title": "Buy the Same Item at a Konbini",
+      "title": "Buy the Same Item at a Konbini",
+      "reward": 1,
+      "description": "With no prior collusion, you and your partner must go to two separate convenience stores and purchase identical items. Neither team member may repeat either their or their teammate's items. You may try every 10 minutes."
+    },
+    {
+      "id": "evoke-cinema-at-a-ghibli-site",
+      "public_title": "Evoke Cinema at a Ghibli Site",
+      "title": "Evoke Cinema at a Ghibli Site",
+      "reward": 3,
+      "description": "At any of the 10 locations confirmed to have inspired a Studio Ghibli film, take a photo and make a poll asking What Ghibli Movie is this. The correct answer must be the top answer."
+    },
+    {
+      "id": "stand-where-tom-stood",
+      "public_title": "Stand Where Tom Stood",
+      "title": "Stand Where Tom Stood",
+      "reward": 4,
+      "description": "Memorize and word-for-word recreate the introduction of any Tom Scott video in the place where it is filmed. If you fail, you must wait 45 minutes before trying again."
+    },
+    {
+      "id": "have-an-amazing-time-at-a-baseball-game",
+      "public_title": "Have an Amazing Time at a Baseball Game",
+      "title": "Have an Amazing Time at a Baseball Game",
+      "reward": 5,
+      "description": "Baseball is Japan's most popular sport, and there are six NPB games happening across the country each day we are playing. Get into the stadium for any game and spend at least half an hour having an amazing time there. You must witness some of the game."
+    },
+    {
+      "id": "go-to-an-abandoned-station",
+      "public_title": "Go to an Abandoned Station",
+      "title": "Go to an Abandoned Station",
+      "reward": 2,
+      "description": "Get off a train at a station where nobody else is getting off the train. Then get on the train when nobody else is getting on the train. These things must be done at the same station.\n\nMetro stops don't count"
+    },
+    {
+      "id": "skip-a-stone",
+      "public_title": "Skip a Stone",
+      "title": "Skip a Stone",
+      "reward": 1,
+      "description": "Your rock must skip at least three times. You may practice, but may only make one official attempt every five minutes. You may switch who is attempting at any time."
+    },
+    {
+      "id": "recreate-a-scene-at-a-hide-and-seek-hiding-spot",
+      "public_title": "Recreate a Scene at a Hide and Seek Hiding Spot",
+      "title": "Recreate a Scene at a Hide and Seek Hiding Spot",
+      "reward": 3,
+      "description": "At any hiding spot from Season 12, word-for-word recreate any 45 second segment in the place where it was filmed. If you fail, you must wait 45 minutes before trying again."
+    },
+    {
+      "id": "see-the-sunset-at-one-of-the-100-most-beautiful-sunset-spots",
+      "public_title": "See the Sunset at One of the 100 Most Beautiful Sunset Spots",
+      "title": "See the Sunset at One of the 100 Most Beautiful Sunset Spots",
+      "reward": 6,
+      "description": "You must be there at the moment of sunset. If both teams are at the same spot at sunset, they both get the reward."
+    },
+    {
+      "id": "get-on-island-time",
+      "public_title": "Get on Island Time",
+      "title": "Get on Island Time",
+      "reward": 2,
+      "description": "Get legally intoxicated on any island apart from Japan's main four."
+    },
+    {
+      "id": "predict-your-partner-s-taste-at-a-market",
+      "public_title": "Predict Your Partner's Taste at a Market",
+      "title": "Predict Your Partner's Taste at a Market",
+      "reward": 2,
+      "description": "Go to any market with over 1,000 reviews on Google Maps. One teammate must purchase three items, stating which they believe their partner will rank as their favorite, second favorite, and least favorite. Their teammate will then do a blind taste test, and rank the items. If the rankings match, this challenge is complete. If they do not, you must wait 30 minutes, switch roles, and try again with different foods."
+    },
+    {
+      "id": "collect-a-dam-trading-card",
+      "public_title": "Collect a Dam Trading Card",
+      "title": "Collect a Dam Trading Card",
+      "reward": 2,
+      "description": "In 2007, the Ministry of Land, Infrastructure, Transport, and Tourism and Water Resources Organization began handing out dam trading cards to visitors of Japan's dams. They have since grown in popularity, with over 500 dames now providing cards. Go to a dam and get one!\n\nThe dam card IS a playable card and can be used to block the opposing team from attempting a water-based challenge when that challenge enters the board."
+    },
+    {
+      "id": "eat-one-of-your-cards",
+      "public_title": "Eat One of your Cards",
+      "title": "Eat One of your Cards",
+      "reward": 0,
+      "description": "Eat any card you currently have in your hand. It cannot be played from your stomach."
+    },
+    {
+      "id": "find-someone-else-filming",
+      "public_title": "Find Someone Else Filming",
+      "title": "Find Someone Else Filming",
+      "reward": 2,
+      "description": "Find anyone using a camera on a stationary tripod."
+    },
+    {
+      "id": "find-amy-s-mystery-item",
+      "public_title": "Find Amy's Mystery Item",
+      "title": "Find Amy's Mystery Item",
+      "reward": 3,
+      "description": "Read Amy's Clue, then situate yourself anywhere to start this challenge. When ready, reveal Amy's Mystery item.\n\nYou have 1 minute to find that item.",
+      "time_limit": {
+        "seconds": 60,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "see-three-viewers-at-the-three-views",
+      "public_title": "See Three Viewers at the Three Views",
+      "title": "See Three Viewers at the Three Views",
+      "reward": 4,
+      "description": "The Three Views of Japan is the historic list of Japan's three most iconic sites. Visit one of these places and set up a shot where you believe exactly 3 people will enter the shot in a period of 60 seconds. You have unlimited attempts.",
+      "time_limit": {
+        "seconds": 60,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "eat-your-prefecture-s-signature-dish",
+      "public_title": "Eat Your Prefecture's Signature Dish",
+      "title": "Eat Your Prefecture's Signature Dish",
+      "reward": 2,
+      "description": "Each prefecture of Japan has its own signature dish. Within one hour of disembarking a train, find your prefecture's dish and eat at least one bite.\n\nYou may not use your phone to navigate. You may use it to confirm you found the correct dish.\n\nIf you fail, you may reattempt starting at a different station.",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "go-to-a-dentoteki-kenzobutsu-gun",
+      "public_title": "Go to a Dentōteki Kenzōbutsu-gun",
+      "title": "Go to a Dentōteki Kenzōbutsu-gun",
+      "reward": 2,
+      "description": "Go to one of Japan's Dentōteki Kenzōbutsu-gun, protected groups of traditional buildings. After 15 minutes of exploration, you must correctly guess which of three formal designations it holds."
+    },
+    {
+      "id": "be-alone-at-a-restaurant",
+      "public_title": "Be Alone at a Restaurant",
+      "title": "Be Alone at a Restaurant",
+      "reward": 1,
+      "description": "Order, be served, and consume an entire menu item at a sit-down restaurant that has no other customers during the entirety of your visit."
+    },
+    {
+      "id": "complete-the-japan-food-hunt",
+      "public_title": "Complete the Japan Food Hunt",
+      "title": "Complete the Japan Food Hunt",
+      "reward": 1,
+      "description": "After disembarking at any station, and without using your phone, one team member must consume six of the eight following items within one hour: Sushi, Mochi, Coolish, Pocari Sweat, Yakitori, Takoyaki, Taiyaki, and Matcha. You may not buy anything from the same store.",
+      "time_limit": {
+        "seconds": 3600,
+        "start": "manual"
+      }
+    }
+  ]
+}

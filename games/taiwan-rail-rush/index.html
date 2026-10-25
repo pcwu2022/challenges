@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taiwan: Rail Rush — Challenges</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+  <script type="module" src="../../assets/game.js"></script>
+</head>
+<body>
+  <main>
+    <a href="../../index.html">← All games</a>
+    <header><h1 id="game-title">Challenges</h1><p id="game-description"></p></header>
+    <p id="notice" role="status"></p>
+    <section id="summary" class="summary" aria-label="Game progress"></section>
+    <section id="challenges" class="cards" aria-label="Challenges"><p>Loading challenges…</p></section>
+    <footer><p id="source"></p><button id="restart" type="button" disabled>Restart game</button><p>Progress is saved in this browser. Timers continue while this page is closed.</p></footer>
+  </main>
+  <dialog id="challenge-dialog" aria-labelledby="dialog-title">
+    <p id="dialog-hint" class="eyebrow"></p>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-reward"></p>
+    <p id="dialog-description" class="description"></p>
+    <section id="timer-area" aria-label="Challenge timer" hidden>
+      <p id="timer-label"></p><p id="timer" class="timer" role="timer"></p>
+      <button id="start" type="button">Start timer</button>
+    </section>
+    <p id="expired" role="alert" hidden>Time is up. Confirm whether you completed the challenge before the deadline.</p>
+    <p class="muted">Resolve this challenge to reveal another one.</p>
+    <div class="actions"><button id="complete" type="button">Complete</button><button id="fail" type="button" class="secondary">Failed</button></div>
+  </dialog>
+</body>
+</html>
