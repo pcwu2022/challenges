@@ -1,4 +1,5 @@
 import { getJSON, validateGame, load, save, createState, reconcile, stats, remaining, formatTime, el, PREFIX } from './storage.js';
+import { renderMarkdown } from './markdown.js';
 const $ = selector => document.querySelector(selector);
 const dialog = $('#challenge-dialog');
 let game, state, active, healthy = false;
@@ -41,7 +42,7 @@ function render() {
   if (!active) { if (dialog.open) dialog.close(); return; }
   $('#dialog-hint').textContent = active.public_title;
   $('#dialog-title').textContent = active.title;
-  $('#dialog-description').textContent = active.description;
+  $('#dialog-description').innerHTML = renderMarkdown(active.description);
   $('#dialog-reward').textContent = `${active.reward} points`;
   $('#timer-area').hidden = !active.time_limit;
   tick();

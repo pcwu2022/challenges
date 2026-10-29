@@ -37,21 +37,21 @@
       "public_title": "中山區",
       "title": "去北美館參展",
       "reward": 100,
-      "description": "你現在是一名寫實藝術畫家。請在本區內尋找一個地點，使用紙筆繪製這個地點，並詢問 AI 這個地點是哪裡。如果 AI 答錯或答不出來，則換另一個視野範圍不重複的地點再試一次。Prompt: 這是台北市的某一個地方，請告訴我這裡是哪裡。"
+      "description": "你現在是一名寫實藝術畫家。請在本區內尋找一個地點，使用紙筆繪製這個地點，並詢問 AI 這個地點是哪裡。如果 AI 答錯或答不出來，則換另一個視野範圍不重複的地點再試一次。Prompt: *這是台北市的某一個地方，請告訴我這裡是哪裡。*"
     },
     {
       "id": "zhongzheng",
       "public_title": "中正區",
-      "title": "台北市的馬路很多以中國城市命名，其中中正區包含 58 條，為台北之冠。請移動到一個路口，兩條路皆由中國城市命名，且兩座城市（不論現在存在與否）建城的朝代必須相同。你可以使用任何方式尋找答案。",
+      "title": "考古",
       "reward": 100,
-      "description": ""
+      "description": "台北市的馬路很多以中國城市命名，其中中正區包含 58 條，為台北之冠。請移動到一個路口，兩條路皆由中國城市命名，且兩座城市（不論現在存在與否）建城的朝代必須相同。你可以使用任何方式尋找答案。"
     },
     {
       "id": "datong",
       "public_title": "大同區",
       "title": "天下為公",
       "reward": 100,
-      "description": "請一字不漏地背出禮運大同篇的內容，你可以練習無數次，但只有一次機會正式嘗試。如果有多位隊友，則一位隊友負責一個句子，交替複誦。句子的定義為由句號分隔的子字串。全文：大道之行也，天下為公。選賢與能，講信修睦。故人不獨親其親，不獨子其子。使老有所終，壯有所用，幼有所長，鰥寡孤獨廢疾者皆有所養。男有分，女有歸。貨惡其棄於地也不必藏於己，力惡其不出於身也不必為己。是故謀閉而不興，盜竊亂賊而不作。故外戶而不閉，是謂大同。"
+      "description": "請一字不漏地背出禮運大同篇的內容，你可以練習無數次，但只有一次機會正式嘗試。如果有多位隊友，則一位隊友負責一個句子，交替複誦。句子的定義為由句號分隔的子字串。\n\n全文：*大道之行也，天下為公。選賢與能，講信修睦。故人不獨親其親，不獨子其子。使老有所終，壯有所用，幼有所長，鰥寡孤獨廢疾者皆有所養。男有分，女有歸。貨惡其棄於地也不必藏於己，力惡其不出於身也不必為己。是故謀閉而不興，盜竊亂賊而不作。故外戶而不閉，是謂大同。*"
     },
     {
       "id": "wanhua",
@@ -76,14 +76,14 @@
       "public_title": "南港區",
       "title": "表演流行音樂",
       "reward": 100,
-      "description": "南港最知名的景點莫過於台北流行音樂中心了。請學習下列流行音樂：“Wise Guys - Deutsche Bahn“ 的副歌，並以 138bpm 唱完。發音可以不標準，但是每一個音節都要唱到拍子上，失敗可以重來。若有兩位以上隊員，除唱歌外的隊員必須跟著拍子 Beatbox。副歌內容：Meine Damen, meine Herren, danke, dass sie mit uns reisen. Zu abgefahr'nen Preisen, auf abgfahr'nen Gleisen. Für ihre Leidensfähigkeit danken wir spontan. Senk ju for träveling wis Deutsche Bahn.。"
+      "description": "南港最知名的景點莫過於台北流行音樂中心了。請學習下列流行音樂：“Wise Guys - Deutsche Bahn“ 的副歌，並以 138bpm 唱完。發音可以不標準，但是每一個音節都要唱到拍子上，失敗可以重來。若有兩位以上隊員，除唱歌外的隊員必須跟著拍子 Beatbox。\n\n副歌內容：\n*Meine Damen, meine Herren, danke, dass sie mit uns reisen. \nZu abgefahr'nen Preisen, auf abgfahr'nen Gleisen. \nFür ihre Leidensfähigkeit danken wir spontan. \nSenk ju for träveling wis Deutsche Bahn.。*"
     },
     {
       "id": "neihu",
       "public_title": "內湖區",
       "title": "去 AIT 辦簽證",
       "reward": 100,
-      "description": "請移動到 AIT，並拿著你的護照與 I20 正本和移民官進行 30 秒的面試。整趟面試過程必須在 AIT 內部進行，若面試時間小於 30 秒則任務失敗。定義：AIT 為任何一棟名字有 AIT 三個字的建築；護照：任何一本書；I20 正本：一張雙面印刷的 A4 紙；移民官：任何一位位於 AIT 內部的陌生人；面試：不間斷地對談。"
+      "description": "請移動到 AIT，並拿著你的護照與 I20 正本和移民官進行 30 秒的面試。整趟面試過程必須在 AIT 內部進行，若面試時間小於 30 秒則任務失敗。\n\n定義：*AIT 為任何一棟名字有 AIT 三個字的建築；護照：任何一本書；I20 正本：一張雙面印刷的 A4 紙；移民官：任何一位位於 AIT 內部的陌生人；面試：不間斷地對談。*"
     },
     {
       "id": "shilin",
