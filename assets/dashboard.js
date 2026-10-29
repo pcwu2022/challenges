@@ -23,5 +23,17 @@ async function render() {
     list.replaceChildren(...results);
   } catch (error) { list.replaceChildren(); document.querySelector('#notice').textContent = `${error.message} Serve the project through HTTP (see README).`; }
 }
+document.querySelector('#restart-all').addEventListener('click', async () => {
+  if (!confirm('Restart all games? This clears all local storage for this site, including saved progress, timers, visit history, and rules preferences. This cannot be undone.')) return;
+  const notice = document.querySelector('#notice');
+  try {
+    localStorage.clear();
+  } catch {
+    notice.textContent = 'Saved data could not be cleared. Check browser storage settings and try again.';
+    return;
+  }
+  notice.textContent = 'All games have been reset.';
+  await render();
+});
 window.addEventListener('storage', render);
 window.addEventListener('pageshow', render);

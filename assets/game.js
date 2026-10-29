@@ -1,5 +1,6 @@
 import { getJSON, validateGame, load, save, createState, reconcile, stats, remaining, formatTime, el, PREFIX } from './storage.js';
 import { renderMarkdown } from './markdown.js';
+import { initRules } from './rules.js';
 const $ = selector => document.querySelector(selector);
 const dialog = $('#challenge-dialog');
 let game, state, active, healthy = false;
@@ -46,7 +47,7 @@ function render() {
   $('#dialog-reward').textContent = `${active.reward} points`;
   $('#timer-area').hidden = !active.time_limit;
   tick();
-  if (!dialog.open) dialog.showModal();
+  if (!dialog.open && !$('#rules-dialog').open) dialog.showModal();
 }
 function tick() {
   if (!active) return;
@@ -102,4 +103,5 @@ try {
     const source = el('a', game.source.label); source.href = game.source.url; source.target = '_blank'; source.rel = 'noreferrer'; $('#source').append(source);
   }
   healthy = true; $('#restart').disabled = false; render();
+  initRules(game, render);
 } catch (error) { $('#challenges').replaceChildren(); report(error); }

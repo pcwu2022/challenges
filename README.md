@@ -15,7 +15,7 @@ Commit these files to a GitHub repository. In **Settings → Pages**, select **D
 ## Add a game
 
 1. Copy `games/schengen-showdown/` into `games/your-game/`.
-2. Change its HTML `<title>` and edit `game.json`. Keep the shared CSS and JS references unchanged for folders at the same depth.
+2. Change its HTML `<title>`, edit `game.json`, and update `rules.md`. Keep the shared CSS and JS references unchanged for folders at the same depth.
 3. Add `{ "id": "your-game", "path": "your-game/" }` to `games/index.json`.
 4. Set the JSON game's `id` to `your-game`. Game IDs must be unique across the catalog. Challenge IDs must be unique within a game. IDs use lowercase letters, numbers, and hyphens; keep them stable to preserve saved progress.
 
@@ -39,10 +39,19 @@ Example `game.json`:
 }
 ```
 
-Omit `time_limit` for untimed challenges. Use `start: "on_open"` for an immediate countdown or `start: "manual"` for a Start timer button. Rewards are nonnegative numbers, awarded only for completed challenges. Descriptions support plain text and newlines. `sample_note` and `source: { "label": "Source", "url": "https://…" }` are optional.
+Omit `time_limit` for untimed challenges. Use `start: "on_open"` for an immediate countdown or `start: "manual"` for a Start timer button. Rewards are nonnegative numbers, awarded only for completed challenges. Descriptions support `*italic*`, `**bold**`, and newlines (including literal `\n`). `sample_note` and `source: { "label": "Source", "url": "https://…" }` are optional.
+
+## Game rules
+
+Each game has an editable `rules.md`, fetched and rendered by the shared JavaScript. Supported Markdown includes headings, paragraphs, flat numbered and bullet lists, emphasis, and HTTP/HTTPS links. Raw HTML is escaped. The Jet Lag rules files contain sourced summaries and explain which mechanics require manual tracking.
+
+Rules open automatically on the first visit to each game in a browser. Close them with the × button or Escape; reopen them with **View rules**, including during an active challenge. A separate localStorage flag (`challenge-revealer:v1:<game-id>:rules-seen`) is saved after successfully loaded rules are dismissed. Restarting a game retains that flag. Failed rules loads can be retried with **View rules** and are never marked seen.
+
+Taipei Showdown lives in `games/taipei-showdown/`. It retains the `taipei-rail-rush` game ID to preserve saved progress and rules-dismissal preferences. Its rules adapt Schengen Showdown's claiming and locking format to Taipei's twelve districts; teams track ownership separately from the challenge tracker.
 
 ## Behavior and storage
 
+- The dashboard's **Restart all games** button asks for confirmation, then clears all localStorage for this site, including every game's progress, visit history, and rules-dismissal preferences.
 - Each game gets a shuffled order, preserved on reload. Restart shuffles again and seals every challenge, clearing points and timers while retaining the first-accessed date.
 - Sealed cards show only their country hint and state. Completed cards are green and failed cards are red, with explicit outcome labels.
 - Revealing a challenge saves its open time and opens a blocking, keyboard-accessible native dialog. Escape and backdrop clicks do not dismiss it. Choose Complete or Failed to continue.

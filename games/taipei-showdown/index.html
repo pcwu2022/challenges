@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Taipei: Rail Rush — Challenges</title>
+  <title>Taipei Showdown — Challenges</title>
   <link rel="stylesheet" href="../../assets/styles.css">
   <script type="module" src="../../assets/game.js"></script>
 </head>
 <body>
   <main>
     <a href="../../index.html">← All games</a>
-    <header><h1 id="game-title">Challenges</h1><p id="game-description"></p></header>
+    <header><h1 id="game-title">Challenges</h1><p id="game-description"></p><button type="button" data-view-rules disabled>View rules</button></header>
     <p id="notice" role="status"></p>
     <section id="summary" class="summary" aria-label="Game progress"></section>
     <section id="challenges" class="cards" aria-label="Challenges"><p>Loading challenges…</p></section>
@@ -26,7 +26,15 @@
     </section>
     <p id="expired" role="alert" hidden>Time is up. Confirm whether you completed the challenge before the deadline.</p>
     <p class="muted">Resolve this challenge to reveal another one.</p>
+    <button type="button" class="secondary" data-view-rules disabled>View rules</button>
     <div class="actions"><button id="complete" type="button">Complete</button><button id="fail" type="button" class="secondary">Failed</button></div>
+  </dialog>
+  <dialog id="rules-dialog" aria-labelledby="rules-title">
+    <div class="rules-header">
+      <h2 id="rules-title">Game rules</h2>
+      <button id="close-rules" type="button" class="secondary" aria-label="Close rules" autofocus>×</button>
+    </div>
+    <div id="rules-content" aria-live="polite"></div>
   </dialog>
 </body>
 </html>

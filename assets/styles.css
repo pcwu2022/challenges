@@ -35,4 +35,12 @@ body:has(dialog[open]) { overflow: hidden; }
 .muted { color: #4b574b; font-size: .9rem; }
 #notice:empty { display: none; }
 #notice { padding: 12px; background: #fff0d3; }
+.rules-header { display: flex; align-items: center; justify-content: space-between; gap: 16px; position: sticky; top: -28px; background: white; padding-block: 12px; }
+.rules-header h2 { margin: 0; }
+#rules-dialog { width: min(760px, calc(100% - 32px)); background: white; }
+#close-rules { font-size: 1.5rem; line-height: 1; padding: 8px 12px; }
+#rules-content h1 { font-size: 1.5rem; }
+#rules-content h2, #rules-content h3 { margin-top: 24px; }
+#rules-content li { margin-block: 8px; }
+#rules-content a { overflow-wrap: anywhere; }
 [hidden] { display: none !important; }
