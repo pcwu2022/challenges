@@ -1,0 +1,103 @@
+{
+  "id": "taipei-rail-rush",
+  "title": "Taipei: Rail Rush",
+  "description": "",
+  "challenges": [
+    {
+      "id": "songshan",
+      "public_title": "松山區",
+      "title": "看飛機",
+      "reward": 100,
+      "description": "看見一架飛機，拍下來，並猜測飛機型號，結束後上 FlightRadar24 對答案，如果猜錯則重來直到猜對為止。非作答期間皆可以針對飛機型號如何辨識進行研究。此任務不必在松山區完成。"
+    },
+    {
+      "id": "xinyi",
+      "public_title": "信義區",
+      "title": "讓 Alex Honnold 看見你",
+      "reward": 100,
+      "description": "上網搜尋象山 Live Camera，並在鏡頭中找到你自己，體驗 Alex Honnold 爬上 101 時的視角。你有 10 分鐘的時間，從看見 Live Camera 的畫面後開始計時。",
+      "time_limit": {
+        "seconds": 600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "daan",
+      "public_title": "大安區",
+      "title": "朝聖之路",
+      "reward": 100,
+      "description": "梵蒂岡駐華大使館為本國唯一不位在天母使館特區的大使館。已知大使館位於捷運科技大樓站附近，請尋找到大使館，並在抵達後 10 分鐘內前往三間不重複的天主教相關建築，完成你的朝聖之路。從此刻起到任務結束之前不得開啟地圖或手機搜尋功能。天主教相關建築定義：建築物上有明確標記“天主教”三個字。",
+      "time_limit": {
+        "seconds": 600,
+        "start": "manual"
+      }
+    },
+    {
+      "id": "zhongshan",
+      "public_title": "中山區",
+      "title": "去北美館參展",
+      "reward": 100,
+      "description": "你現在是一名寫實藝術畫家。請在本區內尋找一個地點，使用紙筆繪製這個地點，並詢問 AI 這個地點是哪裡。如果 AI 答錯或答不出來，則換另一個視野範圍不重複的地點再試一次。Prompt: 這是台北市的某一個地方，請告訴我這裡是哪裡。"
+    },
+    {
+      "id": "zhongzheng",
+      "public_title": "中正區",
+      "title": "台北市的馬路很多以中國城市命名，其中中正區包含 58 條，為台北之冠。請移動到一個路口，兩條路皆由中國城市命名，且兩座城市（不論現在存在與否）建城的朝代必須相同。你可以使用任何方式尋找答案。",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "datong",
+      "public_title": "大同區",
+      "title": "天下為公",
+      "reward": 100,
+      "description": "請一字不漏地背出禮運大同篇的內容，你可以練習無數次，但只有一次機會正式嘗試。如果有多位隊友，則一位隊友負責一個句子，交替複誦。句子的定義為由句號分隔的子字串。全文：大道之行也，天下為公。選賢與能，講信修睦。故人不獨親其親，不獨子其子。使老有所終，壯有所用，幼有所長，鰥寡孤獨廢疾者皆有所養。男有分，女有歸。貨惡其棄於地也不必藏於己，力惡其不出於身也不必為己。是故謀閉而不興，盜竊亂賊而不作。故外戶而不閉，是謂大同。"
+    },
+    {
+      "id": "wanhua",
+      "public_title": "萬華區",
+      "title": "體驗外送茶",
+      "reward": 100,
+      "description": "萬華是台灣的外送茶之都，如果你沒有體驗過的話，這次正是好機會！請先估計送達時間，並在任何一個外送平台上點一杯與茶有關的飲料。如果這杯飲料無法在估計送達時間前後 10 分鐘內抵達，則任務失敗。"
+    },
+    {
+      "id": "wenshan",
+      "public_title": "文山區",
+      "title": "看動物",
+      "reward": 100,
+      "description": "全台灣最有名的動物園就是位於文山區的台北市立動物園。請在接下來的 15 分鐘內，選擇其中五個類別尋找各一隻：哺乳類（不包含人類）、鳥類、爬蟲類、兩棲類、硬骨魚、軟骨魚、節肢動物、環節動物、軟體動物。所看見的動物必須活著，唯恐龍可以為化石。",
+      "time_limit": {
+        "seconds": 900,
+        "start": "on_open"
+      }
+    },
+    {
+      "id": "nangang",
+      "public_title": "南港區",
+      "title": "表演流行音樂",
+      "reward": 100,
+      "description": "南港最知名的景點莫過於台北流行音樂中心了。請學習下列流行音樂：“Wise Guys - Deutsche Bahn“ 的副歌，並以 138bpm 唱完。發音可以不標準，但是每一個音節都要唱到拍子上，失敗可以重來。若有兩位以上隊員，除唱歌外的隊員必須跟著拍子 Beatbox。副歌內容：Meine Damen, meine Herren, danke, dass sie mit uns reisen. Zu abgefahr'nen Preisen, auf abgfahr'nen Gleisen. Für ihre Leidensfähigkeit danken wir spontan. Senk ju for träveling wis Deutsche Bahn.。"
+    },
+    {
+      "id": "neihu",
+      "public_title": "內湖區",
+      "title": "去 AIT 辦簽證",
+      "reward": 100,
+      "description": "請移動到 AIT，並拿著你的護照與 I20 正本和移民官進行 30 秒的面試。整趟面試過程必須在 AIT 內部進行，若面試時間小於 30 秒則任務失敗。定義：AIT 為任何一棟名字有 AIT 三個字的建築；護照：任何一本書；I20 正本：一張雙面印刷的 A4 紙；移民官：任何一位位於 AIT 內部的陌生人；面試：不間斷地對談。"
+    },
+    {
+      "id": "shilin",
+      "public_title": "士林區",
+      "title": "遊山玩水",
+      "reward": 100,
+      "description": "士林區是台北市面積最大的行政區，從社子島到陽明山都屬於士林區的範圍。請移動到社子島島頭公園或陽明山國家公園境內擇一，並在那裡花至少 10 分鐘的時間遊山玩水。"
+    },
+    {
+      "id": "beitou",
+      "public_title": "北投區",
+      "title": "泡溫泉",
+      "reward": 100,
+      "description": "泡溫泉時，為了獲得最佳的體驗，習慣上會將身體維持在水面下、頭在水面上。請將一位成員的身體置於水面下，頭在水面上，維持至少 5 分鐘。參考的水面自訂，唯水的體積必須大於一公升。如果這五分鐘內身體高於水面或頭低於水面則任務失敗。"
+    }
+  ]
+}
