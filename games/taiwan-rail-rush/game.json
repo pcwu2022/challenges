@@ -1,5 +1,6 @@
 {
   "id": "taiwan-rail-rush",
+  "randomize": true,
   "title": "Taiwan: Rail Rush",
   "description": "Reveal a challenge to see its name and rules. Hints show Challenges, Steal, or Call Your Shot.",
   "sample_note": "Challenges transcribed from the supplied Taiwan: Rail Rush reference (Jet Lag: The Wiki community content, CC BY-SA). Fixed chip rewards appear as points in the shared interface. Steals, percentage multipliers, variable Call Your Shot payouts, and opposing-team rewards must be tracked manually; these challenges award zero automatic points. Full reward rules are included in the descriptions. Start manual timers at the trigger described in each challenge. Track separate stages, retry waits, and per-turn limits separately. Supporting materials omitted from the reference include the bird sign location, correct Tofu Rocks path, trivia questions, Let's Make a Deal website, Amy's McDonald's selection, the Find this thing image, painting photographs, street-art character list, and verified Hakka Roundhouse diameter.",

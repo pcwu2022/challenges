@@ -1,5 +1,6 @@
 {
   "id": "japanorama",
+  "randomize": true,
   "title": "Japanorama",
   "description": "Reveal a challenge to see its rules. Each hint is the challenge name.",
   "sample_note": "Challenges transcribed from the supplied Japanorama reference (Jet Lag: The Wiki community content, CC BY-SA). Reward values are cards; the shared interface displays them as points. Start manual timers at the trigger described in each challenge. Track retry waits, minimum activity durations, and multi-stage timing separately. Tristan's riddle, Amy's secret garden locations, and Amy's clue and mystery item are not included in the reference and must be supplied separately. Original wording and ambiguities are retained.",

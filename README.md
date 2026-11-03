@@ -24,6 +24,7 @@ Example `game.json`:
 ```json
 {
   "id": "your-game",
+  "randomize": true,
   "title": "Your game",
   "description": "Pick a hint to reveal a challenge.",
   "challenges": [
@@ -39,6 +40,8 @@ Example `game.json`:
 }
 ```
 
+Set `randomize: true` to shuffle cards on a new game or restart. Set it to `false` (or omit it) to display cards in JSON order, including for saved games. Changing order preserves challenge progress.
+
 Omit `time_limit` for untimed challenges. Use `start: "on_open"` for an immediate countdown or `start: "manual"` for a Start timer button. Rewards are nonnegative numbers, awarded only for completed challenges. Descriptions support `*italic*`, `**bold**`, and newlines (including literal `\n`). `sample_note` and `source: { "label": "Source", "url": "https://…" }` are optional.
 
 ## Game rules
@@ -52,7 +55,8 @@ Taipei Showdown lives in `games/taipei-showdown/`. It retains the `taipei-rail-r
 ## Behavior and storage
 
 - The dashboard's **Restart all games** button asks for confirmation, then clears all localStorage for this site, including every game's progress, visit history, and rules-dismissal preferences.
-- Each game gets a shuffled order, preserved on reload. Restart shuffles again and seals every challenge, clearing points and timers while retaining the first-accessed date.
+- Games with `randomize: true` get a shuffled order, preserved on reload and shuffled again on restart. Other games follow JSON order. Restart seals every challenge, clearing points and timers while retaining the first-accessed date.
+- Completed and failed cards can be reopened for review and dismissed with Close or Escape. Their outcomes and timers cannot be changed.
 - Sealed cards show only their country hint and state. Completed cards are green and failed cards are red, with explicit outcome labels.
 - Revealing a challenge saves its open time and opens a blocking, keyboard-accessible native dialog. Escape and backdrop clicks do not dismiss it. Choose Complete or Failed to continue.
 - Timers use absolute timestamps rather than tick counts. Closing the browser or suspending a tab does not pause them. A manually timed challenge stays unstarted until Start timer is clicked.

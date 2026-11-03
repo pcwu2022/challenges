@@ -18,13 +18,17 @@ export function shuffle(ids) {
   return result;
 }
 export function createState(game, now = Date.now()) {
-  return { version: 1, firstAccessed: now, lastAccessed: now, order: shuffle(game.challenges.map(c => c.id)),
+  return { version: 1, firstAccessed: now, lastAccessed: now, order: game.randomize === true ? shuffle(game.challenges.map(c => c.id)) : game.challenges.map(c => c.id),
     challenges: Object.fromEntries(game.challenges.map(c => [c.id, { state: 'sealed', openedAt: null, startedAt: null }])) };
 }
 export function reconcile(game, state) {
   const ids = game.challenges.map(c => c.id);
-  state.order = [...new Set(state.order)].filter(id => ids.includes(id));
-  state.order.push(...shuffle(ids.filter(id => !state.order.includes(id))));
+  if (game.randomize === true) {
+    state.order = [...new Set(state.order)].filter(id => ids.includes(id));
+    state.order.push(...shuffle(ids.filter(id => !state.order.includes(id))));
+  } else {
+    state.order = ids;
+  }
   for (const c of game.challenges) {
     const entry = state.challenges[c.id];
     if (!entry) state.challenges[c.id] = { state: 'sealed', openedAt: null, startedAt: null };
@@ -52,6 +56,7 @@ export async function getJSON(url) {
 }
 export function validateGame(game) {
   if (!game || !/^[a-z0-9-]+$/.test(game.id) || typeof game.title !== 'string' || !Array.isArray(game.challenges) || !game.challenges.length) throw new Error('Invalid game configuration.');
+  if (game.randomize !== undefined && typeof game.randomize !== 'boolean') throw new Error('Invalid randomize setting.');
   const ids = new Set();
   for (const c of game.challenges) {
     if (typeof c.id !== 'string' || !/^[a-z0-9-]+$/.test(c.id) || ids.has(c.id) || !['public_title', 'title', 'description'].every(k => typeof c[k] === 'string') || !Number.isFinite(c.reward) || c.reward < 0 ||

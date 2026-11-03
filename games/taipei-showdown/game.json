@@ -1,8 +1,16 @@
 {
   "id": "taipei-showdown",
+  "randomize": false,
   "title": "Taipei Showdown",
   "description": "",
   "challenges": [
+    {
+      "id": "example",
+      "public_title": "Example",
+      "title": "範例卡",
+      "reward": 0,
+      "description": "這是一張範例卡。點擊卡片即可查看任務內容，完成後選擇 Complete，未完成則選擇 Failed。"
+    },
     {
       "id": "songshan",
       "public_title": "松山區",
@@ -98,6 +106,217 @@
       "title": "泡溫泉",
       "reward": 100,
       "description": "泡溫泉時，為了獲得最佳的體驗，習慣上會將身體維持在水面下、頭在水面上。請將一位成員的身體置於水面下，頭在水面上，維持至少 5 分鐘。參考的水面自訂，唯水的體積必須大於一公升。如果這五分鐘內身體高於水面或頭低於水面則任務失敗。"
+    },
+    {
+      "id": "banqiao",
+      "public_title": "板橋區",
+      "title": "三鐵共構",
+      "reward": 100,
+      "description": "板橋車站是全台灣第一個完成三鐵共構的車站，其台鐵新站體於 1999 年 7 月 21 日啟用，台北捷運板南線於 2000 年 8 月 31 日通車，隨後台灣高鐵於 2007 年 1 月 5 日通車，正式達成三鐵共構。進行本任務時，請從台鐵、高鐵、板南線或環狀線中任選一條路線，由板橋站的前一站搭乘至板橋站，並推派一名隊員挑戰與車廂內的到站廣播同步朗讀。挑戰者除了廣播的前兩個字可用於對齊節奏外，從第三個字開始直到車門完全開啟為止，必須精準配合廣播聲音同步唸出所有語言的完整內容，且全程不得有任何漏字或脫拍。若有失誤則必須重新挑戰。"
+    },
+    {
+      "id": "sanchong",
+      "public_title": "三重區",
+      "title": "台北匹茲堡",
+      "reward": 100,
+      "description": "新北市三重區又稱「九橋之都」，私擬作「台北匹茲堡」。三重區被淡水河與二重疏洪道包圍，形同一座陸島。為了因應人口成長與連接台北市，區內密集興建了多達九座跨河橋梁，四通八達如章魚觸角般連結雙北，因而得名。請在本區找到下列清單中至少九樣在匹茲堡常見的物品：橋、施工中的馬路、結尾為“h”的名詞、醫院、電動巴士、違規左轉的車輛、露天樓梯、公車專用道、大學、斜屋頂的房子、教堂、講英文的陌生人、鹿、海盜、企鵝。其中鹿、海盜、企鵝可以為圖像、雕塑或文字。你有 15 分鐘的時間，你的時間從現在開始。",
+      "time_limit": {
+        "seconds": 900,
+        "start": "on_open"
+      }
+    },
+    {
+      "id": "zhonghe",
+      "public_title": "中和區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "yonghe",
+      "public_title": "永和區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "xinzhuang",
+      "public_title": "新莊區",
+      "title": "幫 Sam 找到一個 LILLABO",
+      "reward": 100,
+      "description": "這真是太完美了，因為我超級需要一個 LILLABO！你可以幫我一個忙嗎？去一趟 IKEA，並在進店後的 25 分鐘內找到 LILLABO。你不能上網搜尋 LILLABO 是什麼，也不能向任何人尋求協助。你不需要買下它，只要傳一張你跟 LILLABO 的合照給我就好，這樣我就知道它有現貨了。謝謝！",
+      "time_limit": {
+        "seconds": 1500,
+        "start": "manual"
+      } 
+    },
+    {
+      "id": "xindian",
+      "public_title": "新店區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "shulin",
+      "public_title": "樹林區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "yingge",
+      "public_title": "鶯歌區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "sanxia",
+      "public_title": "三峽區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "tamsui",
+      "public_title": "淡水區",
+      "title": "想像你在象潟看夕陽",
+      "reward": 100,
+      "description": "現在可能看不到夕陽，但是你可以發揮你的想像力，感受 Adam 跟 Tom 在秋田縣強勢回歸的感覺。請坐在淡水河邊，面對水域欣賞 15 分鐘的風景。在這段期間，一位隊員必須在紙上畫下他所看見的風景，另一位隊員列出 10 樣他所看到的人事物，這 10 樣必須出現在風景畫中，少任何一樣則任務失敗。"
+    },
+    {
+      "id": "xizhi",
+      "public_title": "汐止區",
+      "title": "CURSED!",
+      "reward": 100,
+      "description": "想不到這個遊戲會有 Curse 吧！Curse of the Jammed Door: 在接下來的一個小時之內，只要你即將進入任何一棟建築或交通工具，就必須躑一面六面骰，如果骰子結果大於或等於 4 才可以進入。否則，必須等至少 3 分鐘才能再嘗試一次。三重區從此刻起就是你們的。"
+    },
+    {
+      "id": "ruifang",
+      "public_title": "瑞芳區",
+      "title": "分洪",
+      "reward": 100,
+      "description": "員山子分洪道是位於臺灣新北市瑞芳區的水利設施，以隧道方式銜接基隆河瑞芳河段與東海。其主要功能是為了避免基隆河上游在降雨量過大時造成下游地區淹水，而將基隆河部分河水以自然溢過分洪堰方式導引洪水，降低基隆河水位，而洪水則透過分洪隧道經基隆山西麓於東北角的台2線76公里處排入海中。請準備兩個杯子，其中一個裝滿水，將一半倒入另一個杯子中。如果倒入過程中有水漏出杯子外，則任務失敗。你只有一次機會。"
+    },
+    {
+      "id": "tucheng",
+      "public_title": "土城區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "luzhou",
+      "public_title": "蘆洲區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "wugu",
+      "public_title": "五股區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "taishan",
+      "public_title": "泰山區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "linkou",
+      "public_title": "林口區",
+      "title": "三井躲貓貓",
+      "reward": 100,
+      "description": "請在林口三井玩躲貓貓。一位隊員負責躲（人），其他隊員負責尋找（鬼）。人不可以躲在鬼的視線範圍內，鬼不可以看見躲的隊員往哪裡跑，兩隊在事前也不可以溝通。人在出發前必須躑一顆六面骰子，所躑到的點數為鬼必須尋找的時間（分鐘）。如果鬼沒有在該時間正負一分鐘內找到，則任務必須重新挑戰。"
+    },
+    {
+      "id": "shenkeng",
+      "public_title": "深坑區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "shiding",
+      "public_title": "石碇區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "pinglin",
+      "public_title": "坪林區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "sanzhi",
+      "public_title": "三芝區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "shimen",
+      "public_title": "石門區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "bali",
+      "public_title": "八里區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "pingxi",
+      "public_title": "平溪區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "shuangxi",
+      "public_title": "雙溪區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "gongliao",
+      "public_title": "貢寮區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "jinshan",
+      "public_title": "金山區",
+      "title": "",
+      "reward": 100,
+      "description": ""
+    },
+    {
+      "id": "wanli",
+      "public_title": "萬里區",
+      "title": "讀萬卷書，行萬里路",
+      "reward": 100,
+      "description": "請不使用手機計算如果要讀萬卷書行萬里路需要花多少時間。讀一卷書需要一分鐘（繪本），而走一里路（現今單位為 500 公尺）需要六分鐘。此人平日可以花 5 小時時間解任務、假日（含國定假日）可以花 12 小時解任務。從 2027/01/01 星期五算起，台灣一年 16 天國定假日（01/01、02/04、02/05、02/08、02/09、02/10、03/01、04/05、04/06、04/30、06/09、09/15、09/28、10/11、10/25、12/24），請計算此人可以在幾月幾號完成這項任務。計算完請使用 AI 驗證答案，日期錯誤則任務失敗。"
+    },
+    {
+      "id": "wulai",
+      "public_title": "烏來區",
+      "title": "選區長",
+      "reward": 100,
+      "description": "為了這個任務千里迢迢來這裡，辛苦你了！新北市烏來區是雙北唯一山地原住民族地區，可以選擇區長。下列人物中何者是烏來區長？選項：曼達尼、夏皮羅、周至剛、蘇貲峰、奧康納、黃芢燻。作答後方可上網搜尋，答錯則任務失敗。"
     }
   ]
 }

@@ -49,3 +49,43 @@ test('invalid timer configurations and multiple open challenges are rejected', (
   const state = createState(game); for (const id of ['austria', 'belgium']) state.challenges[id] = { state: 'open', openedAt: 1, startedAt: null };
   assert.throws(() => reconcile(game, state));
 });
+test('randomize true shuffles using the random source and preserves saved order', () => {
+  const originalRandom = Math.random;
+  try {
+    Math.random = () => 0;
+    const state = createState(game);
+    assert.notDeepEqual(state.order, game.challenges.map(c => c.id));
+    const order = [...state.order];
+    assert.deepEqual(reconcile(game, state).order, order);
+  } finally { Math.random = originalRandom; }
+});
+test('false or omitted randomize follows JSON order and preserves progress', () => {
+  for (const randomize of [false, undefined]) {
+    const ordered = { ...game, randomize };
+    const ids = ordered.challenges.map(c => c.id);
+    assert.deepEqual(createState(ordered).order, ids);
+    const state = createState(game);
+    state.order.reverse();
+    state.challenges.austria.state = 'complete';
+    ordered.challenges = [{ id: 'example', public_title: 'Example', title: '', description: '', reward: 0 }, ...game.challenges];
+    const result = reconcile(ordered, state);
+    assert.deepEqual(result.order, ['example', ...ids]);
+    assert.equal(result.challenges.austria.state, 'complete');
+    assert.equal(result.challenges.example.state, 'sealed');
+  }
+});
+test('randomize must be a boolean when supplied', () => {
+  assert.throws(() => validateGame({ ...game, randomize: 'false' }));
+});
+test('all game files validate and Taipei starts with an example and includes 29 New Taipei districts', async () => {
+  for (const id of ['japanorama', 'schengen-showdown', 'taiwan-rail-rush', 'taipei-showdown']) {
+    const config = validateGame(JSON.parse(await readFile(new URL(`../games/${id}/game.json`, import.meta.url))));
+    assert.equal(typeof config.randomize, 'boolean');
+    if (id === 'taipei-showdown') {
+      assert.equal(createState(config).order[0], 'example');
+      assert.equal(config.challenges.length, 42);
+      assert.equal(config.challenges.slice(13).length, 29);
+      assert.ok(config.challenges.slice(13).every(c => c.public_title.endsWith('區')));
+    }
+  }
+});

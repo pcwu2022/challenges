@@ -3,7 +3,7 @@ import { renderMarkdown } from './markdown.js';
 import { initRules } from './rules.js';
 const $ = selector => document.querySelector(selector);
 const dialog = $('#challenge-dialog');
-let game, state, active, healthy = false;
+let game, state, active, reviewId, healthy = false;
 function report(error) { $('#notice').textContent = error.message; }
 function refresh() { state = reconcile(game, load(game.id) || createState(game)); }
 function commit(next) {
@@ -23,6 +23,9 @@ function render() {
   const progress = stats(game, state);
   $('#summary').replaceChildren(el('p', `${progress.complete}/${progress.total} completed`), el('p', `${progress.failed} failed`), el('p', `${progress.reward} points earned`));
   active = game.challenges.find(c => state.challenges[c.id].state === 'open');
+  if (active || !['complete', 'failed'].includes(state.challenges[reviewId]?.state)) reviewId = undefined;
+  const reviewing = !!reviewId;
+  if (reviewing) active = game.challenges.find(c => c.id === reviewId);
   $('#challenges').replaceChildren(...state.order.map(id => {
     const c = game.challenges.find(c => c.id === id), entry = state.challenges[id];
     const resolved = ['complete', 'failed'].includes(entry.state);
@@ -31,13 +34,21 @@ function render() {
     if (entry.state !== 'sealed') card.append(el('span', c.title, 'card-title'));
     card.append(el('span', { sealed: 'Sealed · click to reveal', open: 'Open', complete: 'Complete', failed: 'Failed' }[entry.state], 'state'));
     if (resolved) card.append(el('span', `${entry.state === 'complete' ? c.reward : 0} points earned`));
-    card.disabled = !!active || resolved;
-    card.addEventListener('click', () => change(next => {
+    card.disabled = !!active && !reviewing;
+    card.addEventListener('click', () => {
+      refresh();
+      if (['complete', 'failed'].includes(state.challenges[id].state)) {
+        reviewId = id;
+        render();
+        return;
+      }
+      change(next => {
       if (game.challenges.some(item => next.challenges[item.id].state === 'open') || next.challenges[id].state !== 'sealed') return false;
       const now = Date.now();
       next.challenges[id] = { state: 'open', openedAt: now, startedAt: c.time_limit?.start === 'on_open' ? now : null };
       return true;
-    }));
+      });
+    });
     return card;
   }));
   if (!active) { if (dialog.open) dialog.close(); return; }
@@ -45,13 +56,24 @@ function render() {
   $('#dialog-title').textContent = active.title;
   $('#dialog-description').innerHTML = renderMarkdown(active.description);
   $('#dialog-reward').textContent = `${active.reward} points`;
-  $('#timer-area').hidden = !active.time_limit;
+  $('#complete').hidden = reviewing;
+  $('#fail').hidden = reviewing;
+  $('#close-challenge').hidden = !reviewing;
+  $('#resolution-hint').textContent = reviewing
+    ? (state.challenges[active.id].state === 'complete' ? 'Complete' : 'Failed')
+    : 'Resolve this challenge to reveal another one.';
+  $('#timer-area').hidden = reviewing || !active.time_limit;
   tick();
   if (!dialog.open && !$('#rules-dialog').open) dialog.showModal();
 }
 function tick() {
   if (!active) return;
   const entry = state.challenges[active.id];
+  if (entry.state !== 'open') {
+    $('#expired').hidden = true;
+    $('#start').hidden = true;
+    return;
+  }
   const seconds = remaining(active, entry);
   const expired = seconds === 0;
   $('#expired').hidden = !expired;
@@ -59,7 +81,15 @@ function tick() {
   $('#timer-label').textContent = entry.startedAt === null ? 'Timer starts when you click Start timer.' : (expired ? 'Deadline reached' : 'Time remaining');
   $('#timer').textContent = formatTime(seconds ?? active.time_limit?.seconds ?? 0);
 }
-dialog.addEventListener('cancel', event => event.preventDefault());
+function closeReview() {
+  reviewId = undefined;
+  render();
+}
+$('#close-challenge').addEventListener('click', closeReview);
+dialog.addEventListener('cancel', event => {
+  event.preventDefault();
+  if (reviewId) closeReview();
+});
 $('#start').addEventListener('click', () => {
   const id = active?.id;
   change(next => {

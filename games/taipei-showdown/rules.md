@@ -1,59 +1,59 @@
-# Taipei Showdown
+# 臺北大對決
 
-Two teams race to claim and lock Taipei's twelve districts by traveling across the city and completing district-specific challenges. **The team controlling the most districts at the end wins.**
+兩支隊伍透過在城市中移動並完成各行政區專屬挑戰，競相取得並鎖定臺北市的十二個行政區。**遊戲結束時控制最多行政區的隊伍獲勝。**
 
-## 1. Game Setup
+## 1. 遊戲設定
 
-- **Teams:** Two teams of two players. Teammates must travel together.
-- **Map:** Taipei City's 12 administrative districts.
-- **Duration:** 10:00 AM–6:00 PM (8 hours).
-- **Starting point:** Taipei Main Station.
-- **Transportation:** Walking, MRT, public buses, and TRA only. No taxis, private vehicles, or bicycles.
-- **Starting district:** Zhongzheng begins unclaimed. Teams must leave and reenter it to claim it.
+- **隊伍：**兩支各由兩名玩家組成的隊伍。隊友必須一起行動。
+- **地圖：**臺北市的 12 個行政區。
+- **遊戲時間：**上午 10:00 至下午 6:00（8 小時）。
+- **起點：**臺北車站。
+- **交通方式：**僅限步行、捷運、公車及臺鐵。不得搭乘計程車、私人交通工具或自行車。
+- **中立區：**以臺北車站為中心的 500 公尺為中立區。任何一隊不得在此區內開啟任務或解任務。
 
-## 2. Claiming Districts
+## 2. 取得行政區
 
-1. **Claim:** The first team to enter an unclaimed district gains provisional ownership. Both teammates must enter. Passing through on public transportation counts; exiting the vehicle is unnecessary.
-2. **Ownership:** Leaving a district does not remove ownership.
-3. **Stealing:** Entering an opponent's claimed district does not transfer ownership. To steal it, the opposing team must complete its challenge.
-4. **Simultaneous entry:** If both teams enter an unclaimed district simultaneously, it remains unclaimed until one team leaves and reenters or successfully completes its challenge.
-5. **Locked districts:** Cannot be claimed or stolen.
+1. **取得：**第一支進入未被佔領行政區的隊伍取得臨時所有權。兩名隊友都必須進入。搭乘大眾運輸工具經過該區即算進入，不必下車。
+2. **所有權：**離開行政區不會失去所有權。
+3. **掠奪：**進入對手已佔領的行政區不會轉移所有權。若要掠奪該區，對手隊伍必須完成該區挑戰。
+4. **同時進入：**若兩支隊伍同時進入未被佔領的行政區，該區仍維持未佔領狀態，直到其中一支隊伍離開後重新進入，或成功完成該區挑戰。
+5. **已鎖定行政區：**無法被取得或掠奪。
 
-## 3. Challenges and Locking
+## 3. 挑戰與鎖定
 
-1. Each district has one secret challenge, revealed only when both teammates are inside that district.
-2. **Completing a challenge permanently locks the district** for the successful team, stealing it if necessary.
-3. Each team has **one challenge opportunity per district**, beginning when the challenge is revealed. Retries are allowed only when explicitly stated.
-4. A challenge may be completed outside its district only if its instructions explicitly permit it.
-5. Teams may have only one active challenge at a time but may continue traveling and claiming unclaimed districts.
-6. Failing or abandoning a challenge ends that team's opportunity. Existing provisional ownership remains unchanged.
-7. Both teams may attempt the same unlocked district's challenge. **The first to complete it wins.** The opposing attempt immediately ends.
+1. 每個行政區都有一項秘密挑戰，只有在兩名隊友都位於該行政區內時才會揭示。
+2. **完成挑戰會永久鎖定該行政區**，由成功的隊伍取得；如有需要，也會掠奪該區。
+3. 每支隊伍在每個行政區有**一次挑戰機會**，從挑戰揭示時開始計算。除非另有明確說明，否則不得重試。
+4. 只有在挑戰說明明確允許的情況下，才能在該行政區外完成挑戰。
+5. 每支隊伍同時只能進行一項挑戰，但可以繼續移動並取得未被佔領的行政區。
+6. 挑戰失敗或放棄會終止該隊伍的挑戰機會。原有的臨時所有權維持不變。
+7. 兩支隊伍都可以嘗試同一個未鎖定行政區的挑戰。**第一支完成挑戰的隊伍獲勝。**對手的挑戰會立即終止。
 
-## 4. Timers and Reporting
+## 4. 計時與回報
 
-- Challenge-specific time limits and conditions take precedence.
-- Automatic timers begin upon revealing the challenge; manual timers begin at the specified trigger.
-- Timers cannot be paused and continue running when the website is closed.
-- Teams must promptly report claims, locks, and steals with timestamps through a shared communication channel.
-- Disputes are resolved using timestamped location, photo, or video evidence.
+- 挑戰專屬的時間限制與條件優先適用。
+- 自動計時器在挑戰揭示時開始；手動計時器在指定觸發條件發生時開始。
+- 計時器不得暫停，即使關閉網站仍會持續計時。
+- 隊伍必須透過共用通訊頻道，及時回報取得、鎖定及掠奪，並附上時間戳記。
+- 爭議將以具時間戳記的位置、照片或影片證據裁決。
 
-## 5. Winning
+## 5. 勝負
 
-At **6:00 PM**, all ownership is frozen and unfinished challenges end.
+在**下午 6:00**，所有所有權將被凍結，尚未完成的挑戰也會結束。
 
-- Each claimed or locked district counts as **one district**.
-- The team controlling the most districts wins.
-- **Tiebreaker:** Greatest combined district area.
-- If both totals and areas are equal, the game is a draw.
+- 每個已取得或已鎖定的行政區均計為**一個行政區**。
+- 控制最多行政區的隊伍獲勝。
+- **平手判定：**行政區總面積較大者獲勝。
+- 若行政區數量與總面積皆相同，則為平手。
 
-## 6. Challenge Tracker
+## 6. 挑戰追蹤器
 
-- Select a district card to reveal its challenge.
-- Select **Complete** or **Failed** to resolve it.
-- Each completed challenge awards **100 displayed points**, which do not affect victory.
-- Each team uses its own browser. Progress is saved locally; the website does not synchronize territory ownership.
-- Maintain a shared ownership record. **Restart game** clears local progress and must not be used during play.
+- 選取行政區卡片以揭示其挑戰。
+- 選取**完成**或**失敗**以結算挑戰。
+- 每完成一項挑戰可獲得**100 點顯示分數**，但不影響勝負。
+- 每支隊伍使用自己的瀏覽器。進度會儲存在本機；網站不會同步領土所有權。
+- 維護共用的所有權紀錄。**重新開始遊戲**會清除本機進度，遊戲進行期間不得使用。
 
-## 7. Fair Play
+## 7. 公平競賽
 
-Follow all laws, venue rules, and challenge instructions. No GPS spoofing, fabricated evidence, interference with opponents, unauthorized entry, or unsafe activities. Safety takes priority over gameplay.
+請遵守所有法律、場地規則及挑戰說明。不得使用 GPS 欺騙、製造虛假證據、干擾對手、未經授權進入或進行危險活動。安全優先於遊戲。

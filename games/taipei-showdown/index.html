@@ -25,8 +25,9 @@
       <button id="start" type="button">Start timer</button>
     </section>
     <p id="expired" role="alert" hidden>Time is up. Confirm whether you completed the challenge before the deadline.</p>
-    <p class="muted">Resolve this challenge to reveal another one.</p>
+    <p id="resolution-hint" class="muted">Resolve this challenge to reveal another one.</p>
     <button type="button" class="secondary" data-view-rules disabled>View rules</button>
+    <button id="close-challenge" type="button" class="secondary" hidden>Close</button>
     <div class="actions"><button id="complete" type="button">Complete</button><button id="fail" type="button" class="secondary">Failed</button></div>
   </dialog>
   <dialog id="rules-dialog" aria-labelledby="rules-title">

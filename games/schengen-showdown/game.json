@@ -1,5 +1,6 @@
 {
   "id": "schengen-showdown",
+  "randomize": true,
   "title": "Schengen Showdown",
   "description": "An unofficial Jet Lag: The Game challenge collection. Country names are your only clues until you reveal a challenge.",
   "sample_note": "Challenges transcribed from the supplied reference; 100 points each is a sample scoring system, not the show's scoring. Start manual timers at the trigger described in each challenge and restart them for permitted retries. Multi-stage challenges require tracking each stage separately. The reference does not include the selected Ode to Joy passage, Bulgarian questions, Angry Birds structure diagram, full Užupis rights task list, Monaco reviews, Jason's bouquet specifications, or the Vatican audience form; those materials must be supplied separately.",
